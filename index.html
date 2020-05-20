@@ -9,7 +9,7 @@
       <div class="container">
         <!--Logo-->
         <a class="logo header-logo">
-          <img src="img/logo.png" alt="Gllacy Shop" width="" height="">
+          <img src="img/logo.svg" alt="Gllacy Shop" width="" height="">
         </a>
         <!--//Logo-->
 
@@ -50,10 +50,12 @@
         <div class="header-links-wrapper">
           <ul class="user-nav">
             <li>
-              <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-                <label class="visually-hidden" for="search-form__input">Поиск по сайту</label>
-                <input type="search" class="search-form__input" name="search-input" id="search-form__input">
-              </form>
+              <a class="user-nav__item user-nav__item--search">
+                <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+                  <label class="visually-hidden" for="search-form__input">Поиск по сайту</label>
+                  <input type="search" class="search-form__input" name="search-input" id="search-form__input">
+                </form>
+              </a>
             </li>
             <li>
               <a class="user-nav__item user-nav__item--compare">Вход</a>
@@ -68,9 +70,7 @@
         <!--address-->
         <div class="coors">
           <span class="coors__hours">с 10 до 20, ежедневно</span>
-          <span class="coors__address">
-              <a href="tel:+78124502525">8 812 450-25-25</a>
-            </span>
+          <a href="tel:+78124502525">8 812 450-25-25</a>
         </div>
         <!--//address-->
       </div>
@@ -83,7 +83,7 @@
           <h1 class="visually-hidden">Магазин Глэйси – онлайн и офлайн-магазин по продаже мороженого собственного проиводства на развес</h1>
           <div class="slider-wrapper">
             <div class="slider-item">
-              <img src="img/slider/slide1.png" alt="Крем-брюле и пломбир с малиновым джемом" width="" height="">
+              <img src="img/slider/slide1.png" alt="Крем-брюле и пломбир с малиновым джемом" width="647" height="584">
               <div class="slider-item-desc">
                 <p class="slider-item-desc__text">Крем-брюле и пломбир с малиновым джемом</p>
                 <a class="slider-item-desc__link btn" href="#">Давайте оба!</a>
@@ -91,7 +91,7 @@
             </div>
 
             <div class="slider-item">
-              <img src="img/slider/slide2.png" alt="Шоколадный пломбир и лимонный сорбет" width="" height="">
+              <img src="img/slider/slide2.png" alt="Шоколадный пломбир и лимонный сорбет" width="644" height="582">
               <div class="slider-item-desc">
                 <p class="slider-item-desc__text">Шоколадный пломбир и лимонный сорбет</p>
                 <a class="slider-item-desc__link btn" href="#">Давайте оба!</a>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="slider-item">
-              <img src="img/slider/slide3.png" alt="Пломбир с помадкой и клубничный щербет" width="" height="">
+              <img src="img/slider/slide3.png" alt="Пломбир с помадкой и клубничный щербет" width="639" height="582">
               <div class="slider-item-desc">
                 <p class="slider-item-desc__text">Пломбир с помадкой и клубничный щербет</p>
                 <a class="slider-item-desc__link btn" href="#">Давайте оба!</a>
@@ -113,13 +113,13 @@
         <section class="offer-wrapper">
           <article class="offer">
             <h2 class="article-title">Малинка даром!</h2>
-            <p class="offer-desc">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку маринового варенья бесплатно.</p>
-            <a class="offer-btn btn" href="#">Хочу варенье!</a>
+            <p class="offer__desc">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку маринового варенья бесплатно.</p>
+            <a class="offer__btn btn" href="#">Хочу варенье!</a>
           </article>
           <article class="offer">
             <h2 class="article-title">Шоколадки даром!</h2>
-            <p class="offer-desc">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-            <a class="offer-btn btn" href="#">Хочу шоколадки!</a>
+            <p class="offer__desc">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+            <a class="offer__btn btn" href="#">Хочу шоколадки!</a>
           </article>
         </section>
         <!--//Offer-->
@@ -129,57 +129,57 @@
           <ul class="catalog">
             <li>
               <article class="catalog-item">
-                <div class="catalog-item__hit"></div>
-                <img src="img/best_value/item1.png" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой">
-                <div class="catalog-item-desc">
-                  <p class="catalog-item-desc__price">
-                    <span class="catalog-item-desc__value">310&nbsp;₽</span>
+                <div class="catalog-item-wrapper">
+                  <div class="catalog-item__hit"></div>
+                  <img src="img/best_value/item1.png" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" width="267" height="267">
+                  <p class="catalog-item__price">
+                    <span class="catalog-item__value">310&nbsp;₽</span>
                     /кг
                   </p>
-                  <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
                 </div>
+                <a class="catalog-item__desc" href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
                 <a class="catalog-item-btn btn" href="#">Быстрый просмотр</a>
               </article>
             </li>
             <li>
               <article class="catalog-item">
-                <div class="catalog-item__hit"></div>
-                <img src="img/best_value/item2.png" alt="Сливочно-кофейное с кусочками шоколада">
-                <div class="catalog-item-desc">
-                  <p class="catalog-item-desc__price">
-                    <span class="catalog-item-desc__value">380&nbsp;₽</span>
+                <div class="catalog-item-wrapper">
+                  <div class="catalog-item__hit"></div>
+                  <img src="img/best_value/item2.png" alt="Сливочно-кофейное с кусочками шоколада" width="267" height="267">
+                  <p class="catalog-item__price">
+                    <span class="catalog-item__value">380&nbsp;₽</span>
                     /кг
                   </p>
-                  <p>Сливочно-кофейное с кусочками шоколада</p>
                 </div>
+                <a class="catalog-item__desc" href="#">Сливочно-кофейное с кусочками шоколада</a>
                 <a class="catalog-item-btn btn" href="#">Быстрый просмотр</a>
               </article>
             </li>
             <li>
               <article class="catalog-item">
-                <div class="catalog-item__hit"></div>
-                <img src="img/best_value/item3.png" alt="Сливочно-клубничное с присыпкой из белого шоколада">
-                <div class="catalog-item-desc">
-                  <p class="catalog-item-desc__price">
-                    <span class="catalog-item-desc__value">355&nbsp;₽</span>
+                <div class="catalog-item-wrapper">
+                  <div class="catalog-item__hit"></div>
+                  <img src="img/best_value/item3.png" alt="Сливочно-клубничное с присыпкой из белого шоколада" width="267" height="267">
+                  <p class="catalog-item__price">
+                    <span class="catalog-item__value">355&nbsp;₽</span>
                     /кг
                   </p>
-                  <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
                 </div>
+                <a class="catalog-item__desc" href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
                 <a class="catalog-item-btn btn" href="#">Быстрый просмотр</a>
               </article>
             </li>
             <li>
               <article class="catalog-item">
-                <div class="catalog-item__hit"></div>
-                <img src="img/best_value/item4.png" alt="Сливочное крем-брюле с карамельной подливкой ">
-                <div class="catalog-item-desc">
-                  <p class="catalog-item-desc__price">
-                    <span class="catalog-item-desc__value">415&nbsp;₽</span>
+                <div class="catalog-item-wrapper">
+                  <div class="catalog-item__hit"></div>
+                  <img src="img/best_value/item4.png" alt="Сливочное крем-брюле с карамельной подливкой" width="267" height="267">
+                  <p class="catalog-item__price">
+                    <span class="catalog-item__value">415&nbsp;₽</span>
                     /кг
                   </p>
-                  <p>Сливочное крем-брюле с карамельной подливкой </p>
                 </div>
+                <a class="catalog-item__desc" href="#">Сливочное крем-брюле с карамельной подливкой </a>
                 <a class="catalog-item-btn btn" href="#">Быстрый просмотр</a>
               </article>
             </li>
@@ -223,7 +223,7 @@
         <section class="contact">
           <h2 class="visually-hidden">Мы находимся</h2>
           <a class="contact-map" href="#">
-            <img src="img/map/map.png" alt="Карта проезда" width="" height="">
+            <img src="img/map/map.png" alt="Карта проезда" width="1200" height="430">
           </a>
           <div class="contact-desc">
             <p class="contact-address">
