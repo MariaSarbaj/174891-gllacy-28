@@ -1,7 +1,6 @@
 # Личный проект «Глейси»
 
 * Студент: [Мария Сарбай](https://up.htmlacademy.ru/htmlcss/28/user/174891).
-* Наставник: [Малик Киров](https://htmlacademy.ru/profile/id17217).
 
 ---
 
